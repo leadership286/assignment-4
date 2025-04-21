@@ -1,1 +1,22 @@
+# Mad Libs Game 🎉
+
+# Taking inputs
+name = input("Enter a name: ")
+place = input("Enter a place: ")
+adjective = input("Enter an adjective: ")
+noun = input("Enter a noun: ")
+verb = input("Enter a verb ending in -ing: ")
+
+# Story Template
+story = f"""
+Once upon a time, {name} went to {place}.
+It was a very {adjective} day.
+Suddenly, a {noun} appeared out of nowhere!
+{name} started {verb} and everyone laughed.
+And they lived happily ever after.
+"""
+
+# Output
+print("\nHere is your Mad Libs story:")
+print(story)
 
